@@ -43,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		11CE3D8C27C8C01400A322E7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11CE3D8E27C8C0E500A322E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE24513D266FBEE00038AD81 /* ios-stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-stations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE245140266FBEE00038AD81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE245142266FBEE00038AD81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -337,6 +338,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				11CE3D8C27C8C01400A322E7 /* ja */,
+				11CE3D8E27C8C0E500A322E7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
