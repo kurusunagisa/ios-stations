@@ -37,6 +37,10 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="button" destination="BYZ-38-t0r" eventType="touchUpInside" id="6yS-i1-Ja4"/>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jo9-vc-t64"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,6 +50,9 @@
                             <constraint firstItem="QNN-OW-ta2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lWW-Qn-eRr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="QNN-OW-ta2" id="JHB-HA-iZQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

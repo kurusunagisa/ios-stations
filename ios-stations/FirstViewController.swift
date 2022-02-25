@@ -13,7 +13,11 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
         //self.view.backgroundColor = UIColor.Theme.main
     }
-
+    @IBOutlet var button: UIButton!
+    @IBAction func button(_ sender: UIButton) {
+        self.button.backgroundColor = UIColor.random
+    }
+    
 }
 
 extension FirstViewController: UITableViewDataSource {
