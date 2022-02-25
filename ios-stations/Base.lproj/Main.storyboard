@@ -18,23 +18,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEv-qX-h8j">
-                                <rect key="frame" x="20" y="426" width="374" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNN-OW-ta2">
+                                <rect key="frame" x="107" y="426" width="200" height="44"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="JGe-aY-xTi"/>
+                                    <constraint firstAttribute="width" constant="200" id="gYz-9B-I6B"/>
+                                    <constraint firstAttribute="height" constant="44" id="p65-vZ-qQ4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Click"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="18" name="Arial-BoldMT"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IEv-qX-h8j" secondAttribute="trailing" constant="20" id="XdA-va-zDN"/>
-                            <constraint firstItem="IEv-qX-h8j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gUi-za-HJO"/>
-                            <constraint firstItem="IEv-qX-h8j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jXz-2T-M3O"/>
+                            <constraint firstItem="QNN-OW-ta2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i35-og-mtq"/>
+                            <constraint firstItem="QNN-OW-ta2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lWW-Qn-eRr"/>
                         </constraints>
                     </view>
                 </viewController>
