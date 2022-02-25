@@ -15,10 +15,3 @@ extension UIColor {
         return UIColor(red: r, green: 1.0, blue: 1.0, alpha: 1.0)
     }
 }
-
-class ViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = UIColor.Theme.main
-    }
-}
